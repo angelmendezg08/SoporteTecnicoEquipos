@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\Programacion de aplicaciones moviles\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF568A3-A41B-4E94-8D6F-C49092F0441E}|SoporteTecnicoEquipos\\SoporteTecnicoEquipos.csproj|c:\\users\\dell\\documents\\programacion de aplicaciones moviles\\soportetecnicoequipos\\soportetecnicoequipos\\soportetecnicoequipos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2FF568A3-A41B-4E94-8D6F-C49092F0441E}|SoporteTecnicoEquipos\\SoporteTecnicoEquipos.csproj|solutionrelative:soportetecnicoequipos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF568A3-A41B-4E94-8D6F-C49092F0441E}|SoporteTecnicoEquipos\\SoporteTecnicoEquipos.csproj|c:\\users\\dell\\documents\\programacion de aplicaciones moviles\\soportetecnicoequipos\\soportetecnicoequipos\\soportetecnicoequipos\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2FF568A3-A41B-4E94-8D6F-C49092F0441E}|SoporteTecnicoEquipos\\SoporteTecnicoEquipos.csproj|solutionrelative:soportetecnicoequipos\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Programacion de aplicaciones moviles\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\.gitignore",
+              "RelativeDocumentMoniker": "SoporteTecnicoEquipos\\.gitignore",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Programacion de aplicaciones moviles\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\.gitignore",
+              "RelativeToolTip": "SoporteTecnicoEquipos\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-29T20:03:23.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Programacion de aplicaciones moviles\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\MainPage.xaml",
+              "RelativeDocumentMoniker": "SoporteTecnicoEquipos\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Programacion de aplicaciones moviles\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\SoporteTecnicoEquipos\\MainPage.xaml",
+              "RelativeToolTip": "SoporteTecnicoEquipos\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-29T19:48:55.876Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
