@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoporteTecnicoEquipos.PrincipalPage"
+             Title="Principal">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Soporte Técnico"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Menú principal"
+                FontSize="18"
+                HorizontalOptions="Center"
+                Margin="0,-10,0,20" />
+
+            <Button
+                Text="Ver reportes"
+                HeightRequest="55" />
+
+            <Button
+                Text="Crear reporte"
+                HeightRequest="55" />
+
+            <Button
+                Text="Cerrar sesión"
+                HeightRequest="55"
+                Margin="0,15,0,0" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoporteTecnicoEquipos.FormularioPage"
+             Title="Crear reporte">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="25"
+            Spacing="15">
+
+            <Label
+                Text="Crear / Editar reporte"
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Margin="0,10,0,15" />
+
+            <Label
+                Text="Equipo"
+                FontAttributes="Bold" />
+
+            <Entry
+                Placeholder="Nombre del equipo" />
+
+            <Label
+                Text="Problema"
+                FontAttributes="Bold" />
+
+            <Entry
+                Placeholder="Descripción breve del problema" />
+
+            <Label
+                Text="Descripción"
+                FontAttributes="Bold" />
+
+            <Editor
+                Placeholder="Describa detalladamente el problema"
+                HeightRequest="120" />
+
+            <Label
+                Text="Estado"
+                FontAttributes="Bold" />
+
+            <Picker
+                Title="Seleccione el estado">
+                <Picker.Items>
+                    <x:String>Pendiente</x:String>
+                    <x:String>En proceso</x:String>
+                    <x:String>Resuelto</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Button
+                Text="Guardar reporte"
+                HeightRequest="50"
+                Margin="0,15,0,0" />
+
+            <Button
+                Text="Cancelar"
+                HeightRequest="50" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

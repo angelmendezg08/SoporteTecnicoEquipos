@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoporteTecnicoEquipos.ListadoPage"
+             Title="Listado de reportes">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="25"
+            Spacing="15">
+
+            <Label
+                Text="Reportes de soporte"
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                Margin="0,10,0,15" />
+
+            <Frame
+                Padding="15"
+                CornerRadius="10">
+
+                <VerticalStackLayout Spacing="8">
+
+                    <Label
+                        Text="Reporte #001"
+                        FontSize="20"
+                        FontAttributes="Bold" />
+
+                    <Label
+                        Text="Equipo: Computadora de escritorio" />
+
+                    <Label
+                        Text="Problema: No enciende" />
+
+                    <Label
+                        Text="Estado: Pendiente" />
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                Padding="15"
+                CornerRadius="10">
+
+                <VerticalStackLayout Spacing="8">
+
+                    <Label
+                        Text="Reporte #002"
+                        FontSize="20"
+                        FontAttributes="Bold" />
+
+                    <Label
+                        Text="Equipo: Impresora" />
+
+                    <Label
+                        Text="Problema: No imprime" />
+
+                    <Label
+                        Text="Estado: En proceso" />
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                Padding="15"
+                CornerRadius="10">
+
+                <VerticalStackLayout Spacing="8">
+
+                    <Label
+                        Text="Reporte #003"
+                        FontSize="20"
+                        FontAttributes="Bold" />
+
+                    <Label
+                        Text="Equipo: Laptop" />
+
+                    <Label
+                        Text="Problema: Equipo lento" />
+
+                    <Label
+                        Text="Estado: Resuelto" />
+
+                </VerticalStackLayout>
+
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
