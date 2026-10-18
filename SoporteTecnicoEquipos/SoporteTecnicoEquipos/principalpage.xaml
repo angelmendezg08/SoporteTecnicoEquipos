@@ -24,16 +24,19 @@
 
             <Button
                 Text="Ver reportes"
-                HeightRequest="55" />
+                HeightRequest="55"
+                Clicked="OnVerReportesClicked" />
 
             <Button
                 Text="Crear reporte"
-                HeightRequest="55" />
+                HeightRequest="55"
+                Clicked="OnCrearReporteClicked" />
 
             <Button
                 Text="Cerrar sesión"
                 HeightRequest="55"
-                Margin="0,15,0,0" />
+                Margin="0,15,0,0"
+                Clicked="OnCerrarSesionClicked" />
 
         </VerticalStackLayout>
     </ScrollView>

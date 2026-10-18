@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoporteTecnicoEquipos.ClientesPage"
+             Title="Clientes">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="12">
+
+            <Label
+                Text="Registrar cliente"
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Label Text="Nombre" FontAttributes="Bold" />
+            <Entry
+                x:Name="NombreEntry"
+                Placeholder="Nombre completo" />
+
+            <Label Text="Teléfono" FontAttributes="Bold" />
+            <Entry
+                x:Name="TelefonoEntry"
+                Placeholder="Número de teléfono"
+                Keyboard="Telephone" />
+
+            <Label Text="Correo electrónico" FontAttributes="Bold" />
+            <Entry
+                x:Name="CorreoEntry"
+                Placeholder="correo@ejemplo.com"
+                Keyboard="Email" />
+
+            <Button
+                Text="Guardar cliente"
+                HeightRequest="50"
+                Clicked="OnGuardarClienteClicked" />
+
+            <Label
+                Text="Clientes registrados"
+                FontSize="22"
+                FontAttributes="Bold"
+                Margin="0,12,0,0" />
+
+            <CollectionView x:Name="ClientesCollectionView">
+                <CollectionView.EmptyView>
+                    <Label
+                        Text="Todavía no hay clientes registrados."
+                        Padding="10"
+                        HorizontalOptions="Center" />
+                </CollectionView.EmptyView>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="15" Margin="0,5" CornerRadius="10">
+                            <VerticalStackLayout Spacing="6">
+                                <Label
+                                    Text="{Binding Nombre}"
+                                    FontSize="18"
+                                    FontAttributes="Bold" />
+                                <Label Text="{Binding Telefono, StringFormat='Teléfono: {0}'}" />
+                                <Label Text="{Binding Correo, StringFormat='Correo: {0}'}" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

@@ -42,9 +42,11 @@
                 IsPassword="True" />
 
             <Button
-                Text="Iniciar sesión"
-                HeightRequest="50"
-                Margin="0,15,0,0" />
+   
+                 Text="Iniciar sesión"
+                 HeightRequest="50"
+                 Margin="0,15,0,0"
+                 Clicked="OnLoginClicked" />
 
             <Label
                 Text="Sistema de soporte técnico"

@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="SoporteTecnicoEquipos/SoporteTecnicoEquipos.csproj" />
+  <Project Path="SoporteTecnicoEquipos/SoporteTecnicoEquipos.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
 </Solution>

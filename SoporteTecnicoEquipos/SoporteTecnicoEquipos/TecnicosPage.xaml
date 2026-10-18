@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoporteTecnicoEquipos.TecnicosPage"
+             Title="Técnicos">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" Spacing="12">
+
+            <Label
+                Text="Registrar técnico"
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center" />
+
+            <Label Text="Nombre" FontAttributes="Bold" />
+            <Entry
+                x:Name="NombreEntry"
+                Placeholder="Nombre completo" />
+
+            <Label Text="Especialidad" FontAttributes="Bold" />
+            <Entry
+                x:Name="EspecialidadEntry"
+                Placeholder="Ej. Reparación de computadoras" />
+
+            <Label Text="Teléfono" FontAttributes="Bold" />
+            <Entry
+                x:Name="TelefonoEntry"
+                Placeholder="Número de teléfono"
+                Keyboard="Telephone" />
+
+            <Button
+                Text="Guardar técnico"
+                HeightRequest="50"
+                Clicked="OnGuardarTecnicoClicked" />
+
+            <Label
+                Text="Técnicos registrados"
+                FontSize="22"
+                FontAttributes="Bold"
+                Margin="0,12,0,0" />
+
+            <CollectionView x:Name="TecnicosCollectionView">
+                <CollectionView.EmptyView>
+                    <Label
+                        Text="Todavía no hay técnicos registrados."
+                        Padding="10"
+                        HorizontalOptions="Center" />
+                </CollectionView.EmptyView>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="15" Margin="0,5" CornerRadius="10">
+                            <VerticalStackLayout Spacing="6">
+                                <Label
+                                    Text="{Binding Nombre}"
+                                    FontSize="18"
+                                    FontAttributes="Bold" />
+                                <Label Text="{Binding Especialidad, StringFormat='Especialidad: {0}'}" />
+                                <Label Text="{Binding Telefono, StringFormat='Teléfono: {0}'}" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

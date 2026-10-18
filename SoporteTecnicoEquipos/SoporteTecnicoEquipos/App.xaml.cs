@@ -1,9 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using SoporteTecnicoEquipos.Services;
 
 namespace SoporteTecnicoEquipos
 {
     public partial class App : Application
     {
+        public static SoporteService Servicio { get; } = new SoporteService();
+
         public App()
         {
             InitializeComponent();
@@ -15,3 +17,5 @@ namespace SoporteTecnicoEquipos
         }
     }
 }
+
+

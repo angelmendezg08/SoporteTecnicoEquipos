@@ -3,12 +3,14 @@
     x:Class="SoporteTecnicoEquipos.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:SoporteTecnicoEquipos">
+    xmlns:local="clr-namespace:SoporteTecnicoEquipos"
+    FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Iniciar sesión"
         ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="MainPage"
+        FlyoutItemIsVisible="False" />
 
     <ShellContent
         Title="Principal"
@@ -21,8 +23,27 @@
         Route="ListadoPage" />
 
     <ShellContent
-        Title="Formulario"
+        Title="Formulario de reportes"
         ContentTemplate="{DataTemplate local:FormularioPage}"
         Route="FormularioPage" />
+
+    <ShellContent
+        Title="Equipos"
+        ContentTemplate="{DataTemplate local:EquiposPage}"
+        Route="EquiposPage" />
+
+    <ShellContent
+        Title="Clientes"
+        ContentTemplate="{DataTemplate local:ClientesPage}"
+        Route="ClientesPage" />
+
+    <ShellContent
+        Title="Técnicos"
+        ContentTemplate="{DataTemplate local:TecnicosPage}"
+        Route="TecnicosPage" />
+
+    <MenuItem
+        Text="Cerrar sesión"
+        Clicked="OnLogoutClicked" />
 
 </Shell>
